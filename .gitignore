@@ -9,6 +9,9 @@ wp-content/upgrade/
 wp-content/uploads/
 wp-content/wp-cache-config.php
 wp-content/plugins/hello.php
+wp-includes
+wp-admin
+nbproject
 
 /.htaccess
 /license.txt
@@ -16,3 +19,19 @@ wp-content/plugins/hello.php
 /sitemap.xml
 /sitemap.xml.gz
 
+/index.php
+/wp-activate.php
+/wp-blog-header.php
+/wp-comments-post.php
+/wp-config-sample.php
+/wp-cron.php
+/wp-links-opml.php
+/wp-load.php
+/wp-login.php
+/wp-mail.php
+/wp-settings.php
+/wp-trackback.php
+/xmlrpc.php
+/wp-signup.php
+
+.sass-cache
