@@ -218,7 +218,7 @@
     <div class="content-patisserie">
         <div class="container">
             <div class="text-center upTo">
-                <h2 class="sub-title"><strong>S</strong>ALES</h2>
+                <h2 class="sub-title dark"><strong>S</strong>ALES</h2>
             </div>
             <div class="row">
                 <?php 
@@ -242,7 +242,7 @@
                         </figure>
                         </a>
                         <h3><exp>NOS</exp> <?php the_title();?></h3>
-                        <a href="#modal<?php the_ID();?>" role="button"  data-toggle="modal" class="voir-plus hvr-ripple-out">VOIR PLUS</a>
+                        <a href="#modal<?php the_ID();?>" role="button"  data-toggle="modal" class="voir-plus">VOIR PLUS</a>
                     </div>
                 </div>
                 <?php require 'modal.php';?>
@@ -255,7 +255,7 @@
         </div>
     </div>
 </section>
-<section class="terrasse" id="terrasse">
+<?php /*<section class="terrasse" id="terrasse">
     <div class="container">
         <div class="text-center">
             <h2 class="sub-title"><exp>LA</exp> TERRASSE</h2>
@@ -300,10 +300,77 @@
         </div>
 
     </div>
+</section> */ ?>
+<hr class="separation">
+<section class="terrasse galerie" id="galerie">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="sub-title"><exp>G</exp>ALERIE</h2>
+        </div>
+        <div class="col-lg-10 col-lg-offset-1">
+            <div class="uk-slidenav-position" data-uk-slider="{infinite: false}">
+                <div class="uk-slider-container" data-uk-scrollspy="{cls:'uk-animation-fade', repeat: true, topoffset: '-150', delay: 300, target: 'li'}">
+                    <ul class="uk-slider uk-grid-width-medium-1-2">
+                        <?php 
+                            $args  = array(
+                                'post_type' => 'page',
+                                'cat' => 13,
+                            );
+                            $the_query = new WP_Query( $args ); 
+                            if ( $the_query->have_posts() ) :
+                                while ( $the_query->have_posts() ) : $the_query->the_post();
+                                 
+                        ?>
+                        <li>
+                            <h3>PHOTOS</h3>
+                            <figure class="uk-overlay uk-overlay-hover">
+                                <img src="<?php bloginfo('stylesheet_directory'); ?>/images/La-Terrasse1.png">
+                                <div class="uk-overlay-panel uk-overlay-icon uk-overlay-background uk-overlay-fade"></div>
+                                <?php 
+                                    if( have_rows('photos') ):   
+                                    while ( have_rows('photos') ) : the_row();
+                                ?>
+                                    <a class="lightboximage uk-position-cover" href="<?php the_sub_field('image');?>" data-uk-lightbox="{group:'image'}"></a>
+                                <?php
+                                    endwhile;
+                                    endif;
+                                ?>
+                            </figure>
+                        </li>
+                        <li>
+                            <h3>VIDéOS</h3>
+                            <figure class="uk-overlay uk-overlay-hover">
+                                <img src="<?php bloginfo('stylesheet_directory'); ?>/images/La-Terrassfe1.png">
+                                <div class="uk-overlay-panel uk-overlay-icon uk-overlay-background uk-overlay-fade"></div>
+                                <?php 
+                                    if( have_rows('videos') ):   
+                                    while ( have_rows('videos') ) : the_row();
+                                ?>
+                                    <a class="lightboxvideo uk-position-cover" href="<?php the_sub_field('url');?>" data-uk-lightbox="{group:'video'}"></a>
+                                <?php
+                                    endwhile;
+                                    endif;
+                                ?>
+                            </figure>
+                        </li>
+                        
+                        <?php
+                                    endwhile;
+                                    wp_reset_postdata(); 
+                                endif; 
+                            ?>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
 </section>
 <section class="boutiques" id="boutiques">
     <div class="text-center">
-        <h2 class="sub-title dark"><exp>NOS</exp> BOTIQUES</h2>
+        <h2 class="sub-title dark"><exp>NOS</exp> BOUTIQUES</h2>
     </div>
     <div class="text-center">
         <img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo-boutique.png" data-uk-scrollspy="{cls:'uk-animation-scale-up', repeat: true, topoffset: '-150', delay: 300}">
