@@ -86,7 +86,7 @@
     <div class="content-patisserie">
         <div class="container">
             <div class="text-center upTo">
-                <h2 class="sub-title"><strong>P</strong>ATISSERIE</h2>
+                <h2 class="sub-title dark"><strong>P</strong>ATISSERIE</h2>
             </div>
             <div class="row">
                 <?php 
@@ -112,7 +112,7 @@
                             </a>   
                         </figure>
                         <h3><exp>NOS</exp> <?php the_title();?></h3>
-                        <a href="#modal<?php the_ID();?>" role="button"  data-toggle="modal" class="voir-plus hvr-ripple-out">VOIR PLUS</a>
+                        <a href="#modal<?php the_ID();?>" role="button"  data-toggle="modal" class="voir-plus">VOIR PLUS</a>
                     </div>
                 </div>
                 <?php require 'modal.php';?>
@@ -132,7 +132,7 @@
     <div class="content-patisserie">
         <div class="container">
             <div class="text-center upTo">
-                <h2 class="sub-title dark"><strong>V</strong>IENNOISERIE - <strong>B</strong>OULANGERIE</h2>
+                <h2 class="sub-title"><strong>V</strong>IENNOISERIE - <strong>B</strong>OULANGERIE</h2>
             </div>
             <div class="row">
                 <?php 
@@ -156,7 +156,7 @@
                         </figure>
                         </a>
                         <h3><exp>NOS</exp> <?php the_title();?></h3>
-                        <a href="#modal<?php the_ID();?>" role="button"  data-toggle="modal" class="voir-plus">VOIR PLUS</a>
+                        <a href="#modal<?php the_ID();?>" role="button"  data-toggle="modal" class="voir-plus  hvr-ripple-out">VOIR PLUS</a>
                     </div>
                 </div>
                 <?php require 'modal.php';?>
@@ -175,7 +175,7 @@
     <div class="content-patisserie">
         <div class="container">
             <div class="text-center upTo">
-                <h2 class="sub-title"><strong>F</strong>OURS SECS - <strong>F</strong>RIANDISES</h2>
+                <h2 class="sub-title dark"><strong>F</strong>OURS SECS - <strong>F</strong>RIANDISES</h2>
             </div>
             <div class="row">
                 <?php 
@@ -199,7 +199,7 @@
                         </figure>
                         </a>
                         <h3><exp>NOS</exp> <?php the_title();?></h3>
-                        <a href="#modal<?php the_ID();?>" role="button"  data-toggle="modal" class="voir-plus hvr-ripple-out">VOIR PLUS</a>
+                        <a href="#modal<?php the_ID();?>" role="button"  data-toggle="modal" class="voir-plus">VOIR PLUS</a>
                     </div>
                 </div>
                 <?php require 'modal.php';?>
@@ -218,7 +218,7 @@
     <div class="content-patisserie">
         <div class="container">
             <div class="text-center upTo">
-                <h2 class="sub-title dark"><strong>S</strong>ALES</h2>
+                <h2 class="sub-title"><strong>S</strong>ALES</h2>
             </div>
             <div class="row">
                 <?php 
@@ -242,7 +242,7 @@
                         </figure>
                         </a>
                         <h3><exp>NOS</exp> <?php the_title();?></h3>
-                        <a href="#modal<?php the_ID();?>" role="button"  data-toggle="modal" class="voir-plus">VOIR PLUS</a>
+                        <a href="#modal<?php the_ID();?>" role="button"  data-toggle="modal" class="voir-plus hvr-ripple-out">VOIR PLUS</a>
                     </div>
                 </div>
                 <?php require 'modal.php';?>
@@ -305,7 +305,7 @@
 <section class="terrasse galerie" id="galerie">
     <div class="container">
         <div class="text-center">
-            <h2 class="sub-title"><exp>G</exp>ALERIE</h2>
+            <h2 class="sub-title dark"><exp>G</exp>ALERIE</h2>
         </div>
         <div class="col-lg-10 col-lg-offset-1">
             <div class="uk-slidenav-position" data-uk-slider="{infinite: false}">
@@ -370,7 +370,7 @@
 </section>
 <section class="boutiques" id="boutiques">
     <div class="text-center">
-        <h2 class="sub-title dark"><exp>NOS</exp> BOUTIQUES</h2>
+        <h2 class="sub-title"><exp>NOS</exp> BOUTIQUES</h2>
     </div>
     <div class="text-center">
         <img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo-boutique.png" data-uk-scrollspy="{cls:'uk-animation-scale-up', repeat: true, topoffset: '-150', delay: 300}">

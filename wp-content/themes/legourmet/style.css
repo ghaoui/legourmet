@@ -560,7 +560,7 @@ body .back-top {
 
 /* line 509, sass/style.scss */
 .pattisserie {
-  background-color: #fbeced;
+  background-color: #2d2e30;
   position: relative;
   background-image: url(images/bg-patisserie.png);
   background-position: center;
@@ -598,7 +598,7 @@ body .back-top {
 }
 /* line 539, sass/style.scss */
 .pattisserie .content-patisserie .item-patis h3 {
-  color: #6b5f66;
+  color: #eed1d4;
   font-size: 20px;
   text-transform: uppercase;
 }
@@ -608,81 +608,81 @@ body .back-top {
   font-size: 15px;
   display: inline-block;
   padding: 5px 7px;
-  background-color: #ed6ea4;
+  background-color: rgba(237, 110, 164, 0.3);
+  transition: all .7s;
   color: #fff;
 }
-/* line 551, sass/style.scss */
-.pattisserie .content-patisserie .item-patis .voir-plus:before {
-  border-color: #ed6ea4;
-}
-/* line 554, sass/style.scss */
+/* line 552, sass/style.scss */
 .pattisserie .content-patisserie .item-patis .voir-plus:hover {
   text-decoration: none;
+  transform: scale(1.1);
 }
 
-/* line 561, sass/style.scss */
+/* line 560, sass/style.scss */
 .viennoise {
-  background-color: #2d2e30;
+  background-color: #fbeced;
   position: relative;
   background-image: url(images/bg-patisserie.png);
   background-position: center;
   background-size: contain;
 }
-/* line 567, sass/style.scss */
+/* line 566, sass/style.scss */
 .viennoise > img {
   display: none;
 }
-/* line 570, sass/style.scss */
+/* line 569, sass/style.scss */
 .viennoise .content-patisserie {
   padding-top: 45px;
   padding-bottom: 45px;
 }
-/* line 577, sass/style.scss */
+/* line 576, sass/style.scss */
 .viennoise .content-patisserie .upTo {
   margin-bottom: -30px;
 }
 @media (max-width: 767px) {
-  /* line 577, sass/style.scss */
+  /* line 576, sass/style.scss */
   .viennoise .content-patisserie .upTo {
     margin-bottom: 0;
   }
 }
-/* line 583, sass/style.scss */
+/* line 582, sass/style.scss */
 .viennoise .content-patisserie .item-patis {
   max-width: 321px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
-/* line 588, sass/style.scss */
+/* line 587, sass/style.scss */
 .viennoise .content-patisserie .item-patis figure {
   overflow: initial;
 }
-/* line 591, sass/style.scss */
+/* line 590, sass/style.scss */
 .viennoise .content-patisserie .item-patis h3 {
-  color: #eed1d4;
+  color: #6b5f66;
   font-size: 20px;
   text-transform: uppercase;
 }
-/* line 596, sass/style.scss */
+/* line 595, sass/style.scss */
 .viennoise .content-patisserie .item-patis .voir-plus {
   border: 1px dashed #fff;
   font-size: 15px;
   display: inline-block;
   padding: 5px 7px;
-  background-color: rgba(237, 110, 164, 0.3);
-  transition: all .7s;
+  background-color: #ed6ea4;
   color: #fff;
 }
-/* line 604, sass/style.scss */
+/* line 602, sass/style.scss */
+.viennoise .content-patisserie .item-patis .voir-plus:before {
+  border-color: #ed6ea4;
+}
+/* line 605, sass/style.scss */
 .viennoise .content-patisserie .item-patis .voir-plus:hover {
   text-decoration: none;
-  transform: scale(1.1);
 }
 
 /* line 612, sass/style.scss */
 .friandise {
-  background-color: #f3cbce;
+  background-color: #2d2e30;
   position: relative;
   background-image: url(images/bg-patisserie.png);
   background-position: center;
@@ -720,7 +720,7 @@ body .back-top {
 }
 /* line 642, sass/style.scss */
 .friandise .content-patisserie .item-patis h3 {
-  color: #6b5f66;
+  color: #eed1d4;
   font-size: 20px;
   text-transform: uppercase;
 }
@@ -730,76 +730,76 @@ body .back-top {
   font-size: 15px;
   display: inline-block;
   padding: 5px 7px;
-  background-color: #ed6ea4;
+  background-color: rgba(237, 110, 164, 0.3);
+  transition: all .7s;
   color: #fff;
 }
-/* line 654, sass/style.scss */
+/* line 655, sass/style.scss */
 .friandise .content-patisserie .item-patis .voir-plus:hover {
   text-decoration: none;
-}
-/* line 657, sass/style.scss */
-.friandise .content-patisserie .item-patis .voir-plus:before {
-  border-color: #ed6ea4;
+  transform: scale(1.1);
 }
 
-/* line 664, sass/style.scss */
+/* line 663, sass/style.scss */
 .sales {
-  background-color: #2d2e30;
+  background-color: #fbeced;
   position: relative;
   background-image: url(images/bg-patisserie.png);
   background-position: center;
   background-size: contain;
 }
-/* line 670, sass/style.scss */
+/* line 669, sass/style.scss */
 .sales > img {
   display: none;
 }
-/* line 673, sass/style.scss */
+/* line 672, sass/style.scss */
 .sales .content-patisserie {
   padding-top: 45px;
   padding-bottom: 45px;
 }
-/* line 680, sass/style.scss */
+/* line 679, sass/style.scss */
 .sales .content-patisserie .upTo {
   margin-bottom: -30px;
 }
 @media (max-width: 767px) {
-  /* line 680, sass/style.scss */
+  /* line 679, sass/style.scss */
   .sales .content-patisserie .upTo {
     margin-bottom: 0;
   }
 }
-/* line 686, sass/style.scss */
+/* line 685, sass/style.scss */
 .sales .content-patisserie .item-patis {
   max-width: 321px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
-/* line 691, sass/style.scss */
+/* line 690, sass/style.scss */
 .sales .content-patisserie .item-patis figure {
   overflow: initial;
 }
-/* line 694, sass/style.scss */
+/* line 693, sass/style.scss */
 .sales .content-patisserie .item-patis h3 {
-  color: #eed1d4;
+  color: #6b5f66;
   font-size: 20px;
   text-transform: uppercase;
 }
-/* line 699, sass/style.scss */
+/* line 698, sass/style.scss */
 .sales .content-patisserie .item-patis .voir-plus {
   border: 1px dashed #fff;
   font-size: 15px;
   display: inline-block;
   padding: 5px 7px;
-  background-color: rgba(237, 110, 164, 0.3);
-  transition: all .7s;
+  background-color: #ed6ea4;
   color: #fff;
 }
-/* line 707, sass/style.scss */
+/* line 705, sass/style.scss */
+.sales .content-patisserie .item-patis .voir-plus:before {
+  border-color: #ed6ea4;
+}
+/* line 708, sass/style.scss */
 .sales .content-patisserie .item-patis .voir-plus:hover {
   text-decoration: none;
-  transform: scale(1.1);
 }
 
 /* line 715, sass/style.scss */
@@ -876,7 +876,7 @@ body .back-top {
 
 /* line 775, sass/style.scss */
 .boutiques {
-  background-color: #2d2e30;
+  background-color: #fbeced;
   background-image: url(images/bg-boutique.png), url(images/bg-boutique.png);
   background-repeat: no-repeat;
   background-position-x: left, right;
@@ -907,7 +907,7 @@ body .back-top {
   width: 68.5%;
   display: block;
   height: 1px;
-  border-top: 1px dashed #eed1d4;
+  border-top: 1px dashed #6b5f66;
   margin: 0 auto;
 }
 /* line 804, sass/style.scss */
@@ -923,7 +923,7 @@ body .back-top {
   right: 0;
   height: 130px;
   width: 1px;
-  border-right: 1px dashed #eed1d4;
+  border-right: 1px dashed #6b5f66;
   margin: 0 auto;
 }
 /* line 818, sass/style.scss */
@@ -931,8 +931,8 @@ body .back-top {
   display: inline-block;
   opacity: 0;
   padding: 10px 7px;
-  background-color: #fbeced;
-  color: #2d2e30;
+  background-color: #2d2e30;
+  color: #fbeced;
   font-size: 22px;
   border-radius: 5px;
   position: relative;
@@ -945,7 +945,7 @@ body .back-top {
   height: 0;
   border-style: solid;
   border-width: 0 15px 15px 15px;
-  border-color: transparent transparent #fbeced transparent;
+  border-color: transparent transparent #2d2e30 transparent;
   position: absolute;
   left: 0;
   right: 0;
@@ -959,7 +959,7 @@ body .back-top {
   height: 0;
   border-style: solid;
   border-width: 0 17px 17px 17px;
-  border-color: transparent transparent #2d2e30 transparent;
+  border-color: transparent transparent #fbeced transparent;
   position: absolute;
   left: 0;
   right: 0;
@@ -969,7 +969,7 @@ body .back-top {
 /* line 855, sass/style.scss */
 .boutiques .border-dashed .texte {
   font-size: 18px;
-  color: #fbeced;
+  color: #2d2e30;
 }
 
 /* line 861, sass/style.scss */
@@ -1304,7 +1304,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 /* line 1150, sass/style.scss */
 .galerie {
-  background-color: #fbeced;
+  background-color: #2d2e30;
   padding-bottom: 45px;
 }
 /* line 1153, sass/style.scss */
@@ -1314,7 +1314,7 @@ body::-webkit-scrollbar-thumb:hover {
 /* line 1157, sass/style.scss */
 .galerie .uk-slidenav-position .uk-slider li h3 {
   text-align: center;
-  color: #6b5f66;
+  color: #eed1d4;
   font-size: 20px;
   text-transform: uppercase;
 }

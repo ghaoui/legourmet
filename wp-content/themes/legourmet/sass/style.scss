@@ -507,7 +507,7 @@ body{
     }
 }
 .pattisserie{
-    background-color: #fbeced;
+    background-color: #2d2e30;
     position: relative;
     background-image: url(images/bg-patisserie.png);
     background-position: center;
@@ -537,7 +537,7 @@ body{
                 overflow: initial;
             }
             h3{
-                color: #6b5f66;
+                color: #eed1d4;
                 font-size: 20px;
                 text-transform: uppercase;
             }
@@ -546,20 +546,19 @@ body{
                 font-size: 15px;
                 display: inline-block;
                 padding: 5px 7px;
-                background-color: #ed6ea4;
+                background-color: rgba(237, 110, 164, 0.3);
+                transition: all .7s;
                 color: #fff;
-                &:before{
-                    border-color: #ed6ea4;
-                }
                 &:hover{
                     text-decoration: none;
+                    transform: scale(1.1);
                 }
             }
         }
     }
 }
 .viennoise{
-    background-color: #2d2e30;
+    background-color: #fbeced;
     position: relative;
     background-image: url(images/bg-patisserie.png);
     background-position: center;
@@ -589,7 +588,7 @@ body{
                 overflow: initial;
             }
             h3{
-                color: #eed1d4;
+                color: #6b5f66;
                 font-size: 20px;
                 text-transform: uppercase;
             }
@@ -598,19 +597,20 @@ body{
                 font-size: 15px;
                 display: inline-block;
                 padding: 5px 7px;
-                background-color: rgba(#ed6ea4, .3);
-                transition: all .7s;
+                background-color: #ed6ea4;
                 color: #fff;
+                &:before{
+                    border-color: #ed6ea4;
+                }
                 &:hover{
                     text-decoration: none;
-                    transform: scale(1.1);
                 }
             }
         }
     }
 }
 .friandise{
-    background-color: #f3cbce;
+    background-color: #2d2e30;
     position: relative;
     background-image: url(images/bg-patisserie.png);
     background-position: center;
@@ -640,7 +640,7 @@ body{
                 overflow: initial;
             }
             h3{
-                color: #6b5f66;
+                color: #eed1d4;
                 font-size: 20px;
                 text-transform: uppercase;
             }
@@ -649,20 +649,19 @@ body{
                 font-size: 15px;
                 display: inline-block;
                 padding: 5px 7px;
-                background-color: #ed6ea4;
+                background-color: rgba(237, 110, 164, 0.3);
+                transition: all .7s;
                 color: #fff;
                 &:hover{
                     text-decoration: none;
-                }
-                &:before{
-                    border-color: #ed6ea4;
+                    transform: scale(1.1);
                 }
             }
         }
     }
 }
 .sales{
-    background-color: #2d2e30;
+    background-color: #fbeced;
     position: relative;
     background-image: url(images/bg-patisserie.png);
     background-position: center;
@@ -692,7 +691,7 @@ body{
                 overflow: initial; 
             }
             h3{
-                color: #eed1d4;
+                color: #6b5f66;
                 font-size: 20px;
                 text-transform: uppercase;
             }
@@ -701,12 +700,13 @@ body{
                 font-size: 15px;
                 display: inline-block;
                 padding: 5px 7px;
-                background-color: rgba(#ed6ea4, .3);
-                transition: all .7s;
+                background-color: #ed6ea4;
                 color: #fff;
+                &:before{
+                    border-color: #ed6ea4;
+                }
                 &:hover{
                     text-decoration: none;
-                    transform: scale(1.1);
                 }
             }
         }
@@ -773,7 +773,7 @@ body{
     }
 }
 .boutiques{
-    background-color: #2d2e30;
+    background-color: #fbeced;
     background-image:url(images/bg-boutique.png), url(images/bg-boutique.png); 
     background-repeat: no-repeat;
     background-position-x: left, right;
@@ -798,7 +798,7 @@ body{
             width: 68.5%;
             display: block;
             height: 1px;
-            border-top: 1px dashed #eed1d4;
+            border-top: 1px dashed #6b5f66;
             margin: 0 auto;
         }
         figure{
@@ -811,7 +811,7 @@ body{
                 right: 0;
                 height: 130px;
                 width: 1px;
-                border-right: 1px dashed #eed1d4;
+                border-right: 1px dashed #6b5f66;
                 margin: 0 auto;
             }
         }
@@ -819,8 +819,8 @@ body{
             display: inline-block;
             opacity: 0;
             padding: 10px 7px;
-            background-color: #fbeced;
-            color: #2d2e30;
+            background-color: #2d2e30;
+            color: #fbeced;
             font-size: 22px;
             border-radius: 5px;
             position: relative;
@@ -831,7 +831,7 @@ body{
                 height: 0;
                 border-style: solid;
                 border-width: 0 15px 15px 15px;
-                border-color: transparent transparent #fbeced transparent;
+                border-color: transparent transparent #2d2e30 transparent;
                 position: absolute;
                 left: 0;
                 right: 0;
@@ -844,7 +844,7 @@ body{
                 height: 0;
                 border-style: solid;
                 border-width: 0 17px 17px 17px;
-                border-color: transparent transparent #2d2e30 transparent;
+                border-color: transparent transparent #fbeced transparent;
                 position: absolute;
                 left: 0;
                 right: 0;
@@ -854,7 +854,7 @@ body{
         }
         .texte{
             font-size: 18px;
-            color: #fbeced;
+            color: #2d2e30;
         }
     }
 }
@@ -1148,7 +1148,7 @@ body::-webkit-scrollbar-thumb {
     }
 }
 .galerie{
-    background-color: #fbeced;
+    background-color: #2d2e30;
     padding-bottom: 45px;
     .uk-slidenav-position{
         margin-top: 45px;
@@ -1156,7 +1156,7 @@ body::-webkit-scrollbar-thumb {
             li{
                 h3{
                     text-align: center;
-                    color: #6b5f66;
+                    color: #eed1d4;
                     font-size: 20px;
                     text-transform: uppercase;
                 }
